@@ -1,0 +1,134 @@
+{
+  "Delphine": {
+    "quests": [
+      {
+        "quest_name": "A Blade in the Dark",
+        "location": "Riverwood"
+      },
+      {
+        "quest_name": "Diplomatic Immunity",
+        "location": "Thalmor Embassy"
+      },
+      {
+        "quest_name": "Alduin's Wall",
+        "location": "Sky Haven Temple"
+      }
+    ]
+  },
+  "Elenwen": {
+    "quests": [
+      {
+        "quest_name": "Diplomatic Immunity",
+        "location": "Thalmor Embassy"
+      }
+    ]
+  },
+  "Ulfric Stormcloak": {
+    "quests": [
+      {
+        "quest_name": "The Jagged Crown",
+        "location": "Korvanjund"
+      },
+      {
+        "quest_name": "Battle for Solitude",
+        "location": "Solitude"
+      },
+      {
+        "quest_name": "Season Unending",
+        "location": "High Hrothgar"
+      }
+    ]
+  },
+  "General Tullius": {
+    "quests": [
+      {
+        "quest_name": "Battle for Whiterun",
+        "location": "Whiterun"
+      },
+      {
+        "quest_name": "Battle for Windhelm",
+        "location": "Windhelm"
+      },
+      {
+        "quest_name": "Season Unending",
+        "location": "High Hrothgar"
+      }
+    ]
+  },
+  "Esbern": {
+    "quests": [
+      {
+        "quest_name": "A Cornered Rat",
+        "location": "Ratway Warrens"
+      },
+      {
+        "quest_name": "Alduin's Wall",
+        "location": "Sky Haven Temple"
+      }
+    ]
+  },
+  "Miraak": {
+    "quests": [
+      {
+        "quest_name": "The Temple of Miraak",
+        "location": "Solstheim"
+      },
+      {
+        "quest_name": "At the Summit of Apocrypha",
+        "location": "Apocrypha"
+      }
+    ]
+  },
+  "Serana": {
+    "quests": [
+      {
+        "quest_name": "Awakening",
+        "location": "Dimhollow Crypt"
+      },
+      {
+        "quest_name": "Bloodline",
+        "location": "Castle Volkihar"
+      },
+      {
+        "quest_name": "Beyond Death",
+        "location": "Soul Cairn"
+      }
+    ]
+  },
+  "Paarthurnax": {
+    "quests": [
+      {
+        "quest_name": "The Throat of the World",
+        "location": "Throat of the World"
+      },
+      {
+        "quest_name": "Paarthurnax",
+        "location": "High Hrothgar"
+      }
+    ]
+  },
+  "Brynjolf": {
+    "quests": [
+      {
+        "quest_name": "A Chance Arrangement",
+        "location": "Riften"
+      },
+      {
+        "quest_name": "Scoundrel's Folly",
+        "location": "Goldenglow Estate"
+      }
+    ]
+  },
+  "Karliah": {
+    "quests": [
+      {
+        "quest_name": "Hard Answers",
+        "location": "Calcelmo's Laboratory"
+      },
+      {
+        "quest_name": "Blindsighted",
+        "location": "Twilight Sepulcher"
+      }
+    ]
+  }
+}

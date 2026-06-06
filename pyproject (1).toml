@@ -1,0 +1,51 @@
+[project]
+name = "mistral"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.10.12"
+dependencies = [
+    "datasets>=4.3.0",
+    "faiss-gpu>=1.7.2",
+    "fastapi>=0.136.1",
+    "httpx>=0.28.1",
+    "ipykernel>=7.2.0",
+    "langchain-text-splitters>=1.1.1",
+    "numpy<2.0.0",
+    "peft>=0.18.1",
+    "polars>=1.39.3",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.14.1",
+    "sentence-transformers>=5.4.0",
+    "sentencepiece>=0.2.1",
+    "streamlit>=1.57.0",
+    "torch==2.10.0+cu126",
+    "tqdm>=4.67.3",
+    "transformers>=5.5.0",
+    "trl>=0.24.0",
+    "uvicorn>=0.46.0",
+]
+
+# Настройка источников пакетов для WB
+[tool.uv.sources]
+mltool = { index = "nexus-in" }
+torch = { index = "nexus-torch" }
+
+# Индексы пакетов WB
+[[tool.uv.index]]
+name = "nexus-pypi"
+url = "https://nexus-proxy.wb.ru/repository/pypi-group/simple"
+default = true
+
+[[tool.uv.index]]
+name = "nexus-in"
+url = "https://nexus-hosted.wb.ru/repository/pypi/simple"
+explicit = true
+
+[[tool.uv.index]]
+name = "nexus-torch"
+url = "https://nexus-proxy.wb.ru/repository/pypi-proxy-pytorch-whl-cpu/simple"
+explicit = true
+
+[tool.uv.extra-build-dependencies]
+flash-attn = ["setuptools"]
